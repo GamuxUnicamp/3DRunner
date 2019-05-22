@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pText.text = "Points: " + points.ToString("F0");
+        pText.text = points.ToString("F0");
     }
 
     void FixedUpdate()

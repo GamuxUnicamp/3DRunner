@@ -16,7 +16,6 @@ public class MainMenu : MonoBehaviour
 
     void OnClickBotaoJogar()
     {
-        Debug.Log("botao jogar");
         SceneManager.LoadScene("Jogo");
     }
 
@@ -32,7 +31,6 @@ public class MainMenu : MonoBehaviour
 
     void OnClickBotaoSair()
     {
-        Debug.Log("botao sair");
         Application.Quit();
     }
 }
